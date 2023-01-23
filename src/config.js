@@ -7,6 +7,7 @@ const {
   DB_PASSWORD,
   DB_HOST,
   DB_PORT,
+  SECRET_KEY,
 } = process.env;
 
 module.exports = {
@@ -16,4 +17,5 @@ module.exports = {
   DB_PASSWORD,
   DB_HOST,
   DB_PORT,
+  SECRET_KEY,
 };
